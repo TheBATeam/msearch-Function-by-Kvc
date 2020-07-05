@@ -1,0 +1,25 @@
+
+
+ This mSearch module is Created by Kvc...On the request of 'Yasir' and
+'Richard'... on www.thebateam.org
+
+ Syntax to use:
+
+ mSearch "Filename.ext" "Filepath" [/Q | -Q]
+                     Or
+ mSearch [/? | -h | /h | Help]
+
+ Where:
+ Filename.ext	:	The name of the File to search.
+ Filepath	:	The full / Relative path of the file to replace
+			the previous searched file.
+ '/Q' or '-Q'	:	To perform all actions in Quiet Mode
+				It will not confirm before replacing...
+ '/h' or '-h' or '/?':	to see this help menu...
+
+ If file_not_found...it will return errorcode '404'
+ If the path specified to file for replacing is invalid, then errorcode
+ will be '1'.
+ Else it will return errorcode '0'.
+
+ Thanks for using...#kvc 
